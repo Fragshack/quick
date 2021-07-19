@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Taipei Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Robus N. Laguitao:mailto:robus.laguitao@smsupermalls.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Rowinson M
+ . Valmonte:mailto:owen.valmonte@smsupermalls.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Jannie Ann
+  S. Chua:mailto:jannie.chua@smsupermalls.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Joan G. La
+ strilla-Perciano:mailto:joan.perciano@smsupermalls.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=gbabrigo@g
+ mail.com:mailto:gbabrigo@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Ritchelle 
+ P. Dayondon:mailto:ritchelle.dayondon@smsupermalls.com
+DESCRIPTION;LANGUAGE=en-US:Hi sir/ ma’am\,\n\nGood afternoon.\n\nMay we i
+ nvite you for a zoom meeting on Monday July 19\, 2021 2pm to discuss settl
+ ement of Filwaters’ SOA.\n\nPlease use link and passcode below. Thank yo
+ u.\n\nJoin Zoom Meeting\nhttps://zoom.us/j/91484976607?pwd=YlB4K3ZMS1AvSFV
+ tRVpmWnNPKzluQT09\n\nMeeting ID: 914 8497 6607\nPasscode: SMTD\n\n\nRobus 
+ N. Laguitao\nBuilding Administration Officer\nSM Center Tuguegarao Downtow
+ n\nCONFIDENTIALITY NOTICE:  This message and its contents are confidential
+  and are subject to restrictions contained in this link <https://www.sminv
+ estments.com/disclaimer> . If you received this in error\, please do not r
+ ead or take action in reliance on it.   Instead\, please inform the sender
+  and then delete it immediately.\n
+UID:040000008200E00074C5B7101A82E0080000000050627769467AD701000000000000000
+ 010000000EA76EB8587FC764F9664027D983D14BB
+SUMMARY;LANGUAGE=en-US:Filwaters\, SM Center Tuguegarao Downtown & FAS HO M
+ eeting
+DTSTART;TZID=Taipei Standard Time:20210719T140000
+DTEND;TZID=Taipei Standard Time:20210719T143000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20210716T053750Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:https://zoom.us/j/91484976607?pwd=YlB4K3ZMS1AvSFVtR
+ VpmWnNPKzluQT09
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-30378011
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://zoom.us/j/91484976607?pwd=Yl
+ B4K3ZMS1AvSFVtRVpmWnNPKzluQT09"\,"LocationAnnotation":""\,"LocationUri":""
+ \,"LocationStreet":""\,"LocationCity":""\,"LocationState":""\,"LocationCou
+ ntry":""\,"LocationPostalCode":""\,"LocationFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
